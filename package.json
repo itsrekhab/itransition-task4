@@ -1,0 +1,24 @@
+{
+  "name": "itransition-task4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "pnpm -C server start",
+    "start:client": "pnpm -C client dev",
+    "dev": "pnpm -C server dev & pnpm -C client dev",
+    "build": "pnpm -C client build && pnpm -C server build",
+    "format": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.28.0",
+  "dependencies": {
+    "prettier": "^3.8.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
